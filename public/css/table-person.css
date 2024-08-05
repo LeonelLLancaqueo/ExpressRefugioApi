@@ -1,0 +1,20 @@
+.table-person{
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;    
+    width: 100%;
+    color: antiquewhite;
+    border: 5px solid  burlywood;
+
+}
+.table-encabezado{    
+   text-align: center;
+   color: antiquewhite;
+ 
+   margin: 10px auto;
+}
+
+.table-person th{
+    padding: 10px;
+    margin: auto;    
+}

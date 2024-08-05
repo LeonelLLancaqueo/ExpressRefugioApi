@@ -1,0 +1,47 @@
+
+
+.content-banner{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    
+    align-items: center;
+    margin: auto;
+    width: 30%;
+}
+.s-center{
+    text-align: center;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+
+.flex{
+    display: flex;
+
+}
+
+.content-buttom{
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.grafics{
+    width: 40%;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .s-center{
+        text-align: left;
+    }
+
+}

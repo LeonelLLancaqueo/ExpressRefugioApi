@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: auto;
+   background-color: #71092d;
+}
+/****** HEADER *****/
+header{
+
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+
+    
+}
+
+/******* NAV *******/
+.nav-header{
+    
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 3px solid antiquewhite;
+    
+}
+.nav-header h1{
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+}
+.nav-header ul{
+    list-style: none;
+}
+
+
+.nav-header ul li{
+    display: inline-block;
+    margin: auto;
+    padding: 0 20px;
+
+}
+.nav-header ul li:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blanchedalmond;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+/* FOOTDER*/
+footer{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    margin-top: 30px;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(87, 13, 18);    
+}
+.nav-footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-nav-footer{
+    width: 100%;
+    
+}
+.ul-nav-footer h3{
+    text-align: center;
+    
+}
+.nav-footer ul{   
+    
+    list-style: none;
+    margin:5px 0px 5px 0px;
+}
+.nav-footer ul li{   
+    padding: 1% 25%;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .nav-footer {
+        
+        display: block;
+        
+    }
+    .nav-footer ul{   
+        text-align: left;
+        margin:5px 0px 5px 0px;
+    }
+
+}
+
+
+    
+

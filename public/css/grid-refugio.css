@@ -1,0 +1,56 @@
+/*****  GRID CONTAINER  *****/
+
+.container-refugios-grid{
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    color:bisque;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.container-refugios-grid a{
+    color: antiquewhite;
+}
+.container-refugios-grid img{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+
+/*BUTTON LOAD MORE*/
+.container-button-loadMore{
+    margin-top: 30px;
+    width: 100%;
+    
+    text-align: center;
+}
+.LoadMoreButton {    
+    
+    padding: 10px 20px;
+    background-color: #71092d;
+    color:antiquewhite;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container-refugios-grid img{
+        width: 250px;
+        height: 200px;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container-refugios-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container-refugios-grid img{
+        width: 400px;
+        height: 300px;
+        
+    }
+
+}

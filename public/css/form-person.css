@@ -1,0 +1,45 @@
+
+.form-person{
+    margin: auto;
+    text-align: center;    
+    width: 100%;
+    color: antiquewhite;
+}
+
+.form-person fieldset{
+    width: 80%;
+    margin:auto ;
+    border: 5px solid  burlywood;
+
+}
+
+.form-person fieldset label{
+    padding: auto 10px;
+}
+.form-person fieldset input{
+    
+    width: 80%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+.form-input-submit{
+    
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #8378c2 5%, #9e477d 100%);
+	background-color:#b178c2;
+
+    cursor: pointer;
+    padding: 5px 40px;
+    
+    border-radius: 10px;
+    color:black;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-input-submit:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}

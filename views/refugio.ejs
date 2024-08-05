@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio</title>
+    <link rel="stylesheet" href="/css/slide.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form-person.css">
+    <link rel="stylesheet" href="/css/table-person.css">
+
+    <link rel="shortcut icon" href="#">
+
+</head>
+<body>
+    <header> 
+
+    </header>
+    <div class="slide">
+        <ul>
+            <li id="slide-img1"> <img src= <%= img%> alt=""> </li>
+            <li id="slide-img2"> <img src= <%= img2%> alt=""> </li>
+            <li id="slide-img3"> <img src= <%= img3%> alt=""></li>
+        </ul>
+        
+    </div>
+    
+    <br>
+
+    
+    <table class="table-person" id="table_person">
+        <h3 class="table-encabezado">PERSONAS QUE SUBIERON AL REFUGIO</h3>
+        <thead>
+            <th class="col_nombre">Nombre</th>
+            <th class="col_apellido">Apellido</th>
+            <th class="col_email">Email</th>
+            <th class="col_tel">Telefono</th>
+        </thead>
+
+        <tbody>
+            <% personArray.forEach(function(person) { %>
+                <tr>
+                    <td><%= person.nombre %></th>
+                    <td><%= person.apellido %></th>
+                    <td><%= person.email %></th>
+                    <td><%= person.tel %></th>
+                </tr>    
+                
+            <% }); %>
+        </tbody>
+        
+        
+ 
+       
+    </table>
+
+   
+    <form class="form-person"  method="POST"  >
+        <fieldset >
+            <h2 class="encabezado">SUBISTE EL REFUGIO?</h2>
+            <h3 class="encabezado">Registrarme</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="post_nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="post_apellido">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="post_email">
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="text" name="tel" id="post_tel">
+           
+        </fieldset>
+ 
+        <br>
+    
+        <input id="input_submit" class="form-input-submit" type='submit' value="Enviar"></input>
+      
+        
+
+    </form> 
+       
+    
+    
+    
+    
+    <footer>
+        <nav class="nav-footer">
+
+        </nav>
+
+    </footer>
+
+    
+    
+    <!-- <script src="refugio/cargarPagRefugio.js"></script> -->
+    <script src="/cargarNav.js"></script>
+    <script src="/cargarFooter.js"></script>
+    <script src="/enviarDatos.js"></script>
+    <!--<script src="form_person.js"></script> --> 
+
+
+</body>
+</html>

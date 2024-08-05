@@ -1,0 +1,16 @@
+[   
+    {  
+        "name": "Noticias",
+        "enlace": ["Muerte en la picada","Cierre de sendero","Aumento de tarifa"]
+    },
+    {  
+        "name": "Contacto",
+        "enlace": ["refugio_bariloche@gmail.com","tel: 2944695847","Direccion:Direccion: Avenida Argentina 1540"]
+    },
+    {  
+        "name": "Ayuda",
+        "enlace": ["Centro de atencion","Practicas Recomendables","Centros de informe"]
+    }
+
+    
+]
